@@ -16,7 +16,7 @@ session = Session(engine)
 
 app = Flask(__name__)
 @app.route("/")
-def welcome():
+def home():
     return (
         f"Available Routes:<br/>"
         f"<br/>"
